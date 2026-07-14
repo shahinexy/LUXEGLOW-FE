@@ -75,32 +75,33 @@ const Navbar = () => {
           </SheetContent>
         </Sheet>
       </div>
+      <div className="w-[1372px] mx-auto flex justify-between">
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2 shrink-0">
+          <span className="text-xl md:text-2xl font-bold tracking-tight">
+            LUXE<span className="text-primary">GLOW</span>
+          </span>
+        </Link>
 
-      {/* Logo */}
-      <Link href="/" className="flex items-center gap-2 shrink-0">
-        <span className="text-xl md:text-2xl font-bold tracking-tight">
-          LUXE<span className="text-primary">GLOW</span>
-        </span>
-      </Link>
-
-      {/* Desktop Navigation */}
-      <div className="hidden md:flex items-center gap-6">
-        <ul className="flex items-center gap-1">
-          {navLinks.map((link) => (
-            <li key={link.path}>
-              <Link
-                href={link.path}
-                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
-                  pathName === link.path
-                    ? "bg-primary text-primary-foreground"
-                    : "text-foreground/70 hover:bg-accent hover:text-foreground"
-                }`}
-              >
-                {link.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center gap-6">
+          <ul className="flex items-center gap-1">
+            {navLinks.map((link) => (
+              <li key={link.path}>
+                <Link
+                  href={link.path}
+                  className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
+                    pathName === link.path
+                      ? "bg-primary text-primary-foreground"
+                      : "text-foreground/70 hover:bg-accent hover:text-foreground"
+                  }`}
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </nav>
   );
