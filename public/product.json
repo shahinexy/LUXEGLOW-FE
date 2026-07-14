@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "name": "LUXEGLOW Lightning Body Cream",
+      "category": "Body Care",
+      "description": "A rich body cream formulated with Niacinamide, Vitamin E, Aloe Vera, and Shea Butter to brighten, deeply moisturize, and smooth skin for a radiant, even-toned complexion. Dermatologically tested and suitable for all skin types, it promises visible results in just days. Available in 500ml and 1000ml sizes.",
+      "key_ingredients": ["Niacinamide", "Vitamin E", "Aloe Vera", "Shea Butter"],
+      "skin_type": "All Skin Types",
+      "sizes": ["500ml", "1000ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-body-cream.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Body Lotion",
+      "category": "Body Care",
+      "description": "A lightweight body lotion designed to brighten, smooth, and even out skin tone. Enriched with Niacinamide, Vitamin E, Aloe Vera, and Shea Butter, it provides deep moisturization and is suitable for all skin types, offering visible results in days.",
+      "key_ingredients": ["Niacinamide", "Vitamin E", "Aloe Vera", "Shea Butter"],
+      "skin_type": "All Skin Types",
+      "sizes": ["400ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-body-lotion.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Face Serum",
+      "category": "Face Care",
+      "description": "A lightweight, fast-absorbing face serum formulated with Niacinamide and Vitamin C to brighten skin tone, nourish, and promote an even, radiant complexion. Enriched with Hyaluronic Acid and Aloe Vera, it provides deep hydration and is dermatologically tested for all skin types.",
+      "key_ingredients": ["Niacinamide", "Vitamin C", "Hyaluronic Acid", "Aloe Vera"],
+      "skin_type": "All Skin Types",
+      "sizes": ["30ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-face-serum.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Soap",
+      "category": "Bath & Body",
+      "description": "A gentle yet effective cleansing bar enriched with Niacinamide, Vitamin C, Aloe Vera, and Shea Butter. It deeply cleanses and purifies the skin while helping to reduce dullness, nourish, and promote a brighter, more even-toned complexion.",
+      "key_ingredients": ["Niacinamide", "Vitamin C", "Aloe Vera", "Shea Butter"],
+      "skin_type": "All Skin Types",
+      "sizes": ["180gm"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-soap.jpg"
+    },
+    {
+      "name": "LUXEGLOW Argan Oil Shampoo",
+      "category": "Hair Care",
+      "description": "A nourishing shampoo enriched with 100% Pure Argan Oil, Biotin, Keratin, and Vitamin E. It is formulated to strengthen hair from root to tip, reduce hair fall, and nourish the scalp for healthier, stronger hair. The gentle, sulfate-free and paraben-free formula is suitable for all hair types.",
+      "key_ingredients": ["Argan Oil", "Biotin", "Keratin", "Vitamin E"],
+      "hair_type": "All Hair Types",
+      "features": ["Sulfate-Free", "Paraben-Free"],
+      "sizes": ["500ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-argan-oil-shampoo.jpg"
+    },
+    {
+      "name": "LUXEGLOW Argan Oil Conditioner",
+      "category": "Hair Care",
+      "description": "A deeply nourishing conditioner enriched with 100% Pure Argan Oil, Biotin, Keratin, and Vitamin E. It conditions and hydrates dry, damaged hair, strengthens roots, adds shine and softness, and helps reduce hair fall. Its gentle formula is free from sulfates and parabens.",
+      "key_ingredients": ["Argan Oil", "Biotin", "Keratin", "Vitamin E"],
+      "hair_type": "All Hair Types",
+      "features": ["Sulfate-Free", "Paraben-Free"],
+      "sizes": ["500ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-argan-oil-conditioner.jpg"
+    },
+    {
+      "name": "LUXEGLOW Glycerin Body Lotion",
+      "category": "Body Care",
+      "description": "A deeply hydrating body lotion formulated with Pure Glycerin, Vitamin E, Aloe Vera, and Shea Butter. It provides intense, long-lasting moisture, softens and smoothens skin, and helps protect the skin barrier. Its non-greasy, fast-absorbing formula is suitable for all skin types.",
+      "key_ingredients": ["Glycerin", "Vitamin E", "Aloe Vera", "Shea Butter"],
+      "skin_type": "All Skin Types",
+      "sizes": ["400ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-glycerin-body-lotion.jpg"
+    },
+    {
+      "name": "LUXEGLOW Face Cream",
+      "category": "Face Care",
+      "description": "A nourishing face cream designed for soft, smooth, and radiant skin. Enriched with Niacinamide, Vitamin E, and Aloe Vera, it provides deep hydration, helps even skin tone, and improves skin texture. Dermatologically tested and suitable for all skin types.",
+      "key_ingredients": ["Niacinamide", "Vitamin E", "Aloe Vera", "Shea Butter"],
+      "skin_type": "All Skin Types",
+      "sizes": ["50g"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-face-cream.jpg"
+    },
+    {
+      "name": "LUXEGLOW Face Wash",
+      "category": "Face Care",
+      "description": "A deep-cleansing face wash formulated with Vitamin C and Niacinamide. It effectively clears impurities, brightens the skin, and is gentle enough for all skin types, helping to refresh, renew, and reveal a natural glow.",
+      "key_ingredients": ["Vitamin C", "Niacinamide"],
+      "skin_type": "All Skin Types",
+      "sizes": ["100ml"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-face-wash.jpg"
+    },
+    {
+      "name": "LUXEGLOW Hydrating & Glow Sheet Mask",
+      "category": "Face Care",
+      "description": "A sheet mask infused with Hyaluronic Acid, Niacinamide, Aloe Vera Extract, Collagen, and Vitamin E. It is designed to deeply moisturize and nourish the skin, brighten skin tone, enhance natural glow and radiance, and soothe sensitive skin.",
+      "key_ingredients": ["Hyaluronic Acid", "Niacinamide", "Aloe Vera Extract", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-hydrating-glow-sheet-mask.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Sheet Mask",
+      "category": "Face Care",
+      "description": "A brightening and revitalizing sheet mask formulated for bright, smooth, and radiant skin. Enriched with Hyaluronic Acid, Niacinamide, Aloe Vera Extract, Collagen, and Vitamin E, it provides intense hydration and helps even skin texture.",
+      "key_ingredients": ["Hyaluronic Acid", "Niacinamide", "Aloe Vera Extract", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-sheet-mask.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Sheet Mask - Ice Cooling",
+      "category": "Face Care",
+      "description": "A cooling and soothing sheet mask infused with Menthol and Hyaluronic Acid to refresh and revitalize the skin. It helps reduce puffiness, calm tired skin, and minimize pores while providing deep hydration.",
+      "key_ingredients": ["Menthol", "Hyaluronic Acid", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-sheet-mask-ice-cooling.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Sheet Mask - Tomato Extract",
+      "category": "Face Care",
+      "description": "A brightening sheet mask infused with Tomato Extract and Hyaluronic Acid. It is designed to brighten skin tone, provide deep hydration, and offer antioxidant protection against free radicals for a smooth and glowing complexion.",
+      "key_ingredients": ["Tomato Extract", "Hyaluronic Acid", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-sheet-mask-tomato.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Sheet Mask - Aloe Vera Extract",
+      "category": "Face Care",
+      "description": "A soothing and hydrating sheet mask enriched with Aloe Vera Extract and Hyaluronic Acid. It provides intense moisture and hydration, ideal for calming and soothing the skin.",
+      "key_ingredients": ["Aloe Vera Extract", "Hyaluronic Acid", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-sheet-mask-aloe-vera.jpg"
+    },
+    {
+      "name": "LUXEGLOW Lightning Sheet Mask - Honey Extract",
+      "category": "Face Care",
+      "description": "A nourishing sheet mask formulated with Honey Extract and Hyaluronic Acid. It nourishes deeply with natural nutrients, brightens dull skin, and locks in moisture for long-lasting hydration, leaving skin soft and smooth.",
+      "key_ingredients": ["Honey Extract", "Hyaluronic Acid", "Collagen", "Vitamin E"],
+      "skin_type": "All Skin Types",
+      "sizes": ["1 Sheet"],
+      "price": "Price information not available online.",
+      "image_url": "https://example.com/images/luxeglow-lightning-sheet-mask-honey.jpg"
+    }
+  ]
+}
