@@ -7,28 +7,28 @@ const CategorySection = () => {
     {
       id: 1,
       name: "Body Care",
-      image: "/slider_images/body-cream.png",
+      image: "/category_images/body-oil.png",
       link: "/shop?category=body-care",
       products: ["Body Cream", "Body Lotion"]
     },
     {
       id: 2,
       name: "Face Care",
-      image: "/slider_images/face-wash.png",
+      image: "/category_images/face-care.png",
       link: "/shop?category=face-care",
       products: ["Face Serum", "Face Cream", "Face Wash"]
     },
     {
       id: 3,
       name: "Hair Care",
-      image: "/slider_images/shampoo.png",
+      image: "/category_images/hair-care.png",
       link: "/shop?category=hair-care",
       products: ["Shampoo", "Conditioner"]
     },
     {
       id: 4,
       name: "Sheet Masks",
-      image: "/slider_images/sheet-mask.png",
+      image: "/category_images/face-mask.png",
       link: "/shop?category=masks",
       products: ["Tomato", "Aloe Vera", "Honey", "Ice Cooling"]
     }
@@ -36,7 +36,7 @@ const CategorySection = () => {
 
   return (
     <section className="py-12 md:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
           Shop by <span className="text-primary">Category</span>
         </h2>

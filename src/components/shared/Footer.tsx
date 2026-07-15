@@ -8,7 +8,6 @@ import {
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gray-900 text-gray-300 mt-12">
@@ -41,7 +40,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2">
-              {["About", "Shop", "Contact", "FAQs"].map((item) => (
+              {["About", "Shop", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
                     href={`/${item.toLowerCase()}`}
@@ -91,7 +90,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-gray-800 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center text-xs text-gray-500">
-          &copy; {currentYear} LUXEGLOW. All rights reserved.
+          &copy; 2023 LUXEGLOW. All rights reserved.
         </div>
       </div>
     </footer>

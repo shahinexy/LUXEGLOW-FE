@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const FeaturesSection = () => {
   const features = [
     {
@@ -27,8 +30,8 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section className="py-12 md:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+    <section className="space-y-10 md:space-y-16 md:mb-24 mb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:my-24 my-14">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {features.map((feature) => (
             <div key={feature.id} className="text-center p-4 md:p-6">
@@ -39,6 +42,10 @@ const FeaturesSection = () => {
           ))}
         </div>
       </div>
+
+      <Link href={"/product/14"}>
+        <Image src={"/slider_images/mid-baner.png"} alt="image" height={800} width={1900} className="rounded-2xl" />
+      </Link>
     </section>
   );
 };
