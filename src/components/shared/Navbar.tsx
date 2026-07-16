@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-background border-b border-border px-4 md:px-6 py-3 flex items-center justify-between sticky top-0 z-50">
+    <nav className="bg-background border-b border-border px-4 md:px-6 flex items-center justify-between sticky top-0 z-50">
       {/* Mobile Menu Button */}
       <div className="md:hidden">
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
@@ -51,11 +52,10 @@ const Navbar = () => {
                   <li key={link.path}>
                     <Link
                       href={link.path}
-                      className={`block px-4 py-2.5 rounded-lg transition-colors ${
-                        pathName === link.path
-                          ? "bg-primary text-primary-foreground font-medium"
-                          : "text-foreground/70 hover:bg-accent hover:text-foreground"
-                      }`}
+                      className={`block px-4 py-2.5 rounded-lg transition-colors ${pathName === link.path
+                        ? "bg-primary text-primary-foreground font-medium"
+                        : "text-foreground/70 hover:bg-accent hover:text-foreground"
+                        }`}
                       onClick={handleNavLinkClick}
                     >
                       {link.name}
@@ -78,6 +78,7 @@ const Navbar = () => {
       <div className="w-[1372px] mx-auto flex justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
+          <Image src={"/images/LUXEGLOW.png"} alt="LUXEGLOW" height={60} width={60} className="rounded-full" />
           <span className="text-xl md:text-2xl font-bold tracking-tight">
             LUXE<span className="text-primary">GLOW</span>
           </span>
@@ -90,11 +91,10 @@ const Navbar = () => {
               <li key={link.path}>
                 <Link
                   href={link.path}
-                  className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
-                    pathName === link.path
-                      ? "bg-primary text-primary-foreground"
-                      : "text-foreground/70 hover:bg-accent hover:text-foreground"
-                  }`}
+                  className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${pathName === link.path
+                    ? "bg-primary text-primary-foreground"
+                    : "text-foreground/70 hover:bg-accent hover:text-foreground"
+                    }`}
                 >
                   {link.name}
                 </Link>
