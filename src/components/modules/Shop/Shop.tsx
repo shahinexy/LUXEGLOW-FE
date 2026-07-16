@@ -4,7 +4,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
 import {
     HiOutlineSearch,
     HiOutlineFilter,
@@ -20,9 +19,6 @@ const ShopPage = () => {
     const [selectedCategory, setSelectedCategory] = useState("all");
     const [sortBy, setSortBy] = useState("default");
     const [isFilterOpen, setIsFilterOpen] = useState(false);
-    console.log(products);
-    const searchParams = useSearchParams();
-    const categoryParam = searchParams.get("category");
 
     useEffect(() => {
         const fetchProducts = async () => {
